@@ -1,0 +1,52 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mainactivity2.crypt_it"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" >
+11-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml:4:5-84
+11-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml:4:22-64
+12    </uses-permission>
+13
+14    <application
+14-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml:5:5-19:19
+15        android:allowBackup="true"
+15-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml:6:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.5.0] C:\Users\Ritesh\.gradle\caches\transforms-2\files-2.1\2245221c36e2911ed0c78617191e7497\core-1.5.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml:7:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml:8:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml:9:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml:10:9-35
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml:11:9-40
+24        <activity android:name="com.mainactivity2.crypt_it.MainActivity" >
+24-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml:12:9-18:20
+24-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml:12:19-47
+25            <intent-filter>
+25-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml:13:13-17:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml:14:17-69
+26-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml:14:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml:16:17-77
+28-->C:\Users\Ritesh\Desktop\CryptIT\app\src\main\AndroidManifest.xml:16:27-74
+29            </intent-filter>
+30        </activity>
+31    </application>
+32
+33</manifest>

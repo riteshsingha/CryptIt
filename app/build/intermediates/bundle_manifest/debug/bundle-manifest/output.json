@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.mainactivity2.crypt_it",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "BUNDLE_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "1.0",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.mainactivity2.crypt_it",
+        "split": "",
+        "minSdkVersion": "28"
+      }
+    }
+  ]
+}
